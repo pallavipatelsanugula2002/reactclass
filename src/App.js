@@ -62,7 +62,7 @@
 // }
 // export default App;
 //8/1/2024 task
-function App(){
+// function App(){
 //     return(
 //         <div>
 //              <h1>it is a table without borders</h1>
@@ -101,62 +101,70 @@ function App(){
 //  </div>
 //      )
 //now lets change the above react code by using jsx rules
-const obj={
-    heading1:"it is a table without borders",
-    tableheads:["name","interest","designation"],
-    tabledata:["pallavi","sing","btech","btech","dance","degree"]
+// const obj={
+//     heading1:"it is a table without borders",
+//     tableheads:["name","interest","designation"],
+//     tabledata:["pallavi","sing","btech","btech","dance","degree"]
 
-}
-const obj2={
-    head1:"this is an image",
-    src:"https://th.bing.com/th?id=OIP.87rC-vQdkf1I5qv74_2LjwHaHp&w=246&h=253&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
-    alt:"hello",
-    head2:"this is a list",
-    list1:"javascript",
-    list2:"react",
-    type:"text",
-     value: "hello",
-     name:"name",
-     id:"name"
-}
-const{head1,src,alt,head2,list1,list2,type,value,name,id}=obj2
-return(
-            <div>
-                 <h1>{obj.heading1}</h1>
-            <tr>
-                <th>{obj.tableheads[0]}</th> 
-                <th>{obj.tableheads[1]}</th>
-                <th>{obj.tableheads[2]}</th>
-            </tr>
-            <tr>
-                <td>{obj.tabledata[0]}</td>
-                <td>{obj.tabledata[1]}</td>
-                <td>{obj.tabledata[2]}</td>
-            </tr>
-            <tr>
-                <td>{obj.tabledata[3]}</td>
-                <td>{obj.tabledata[4]}</td>
-                <td>{obj.tabledata[5]}</td>
-            </tr>
-            <h1>{head1}</h1> 
-         <img
-        src={src}
-        alt={alt}
-        />
-        <h1>{head2}</h1>
-        <ul>
-        <li>{list1}</li>
-        <li>{list2}</li>
-        </ul>
-        <h1> this  is a form</h1>
-        <form>
-       <input type= {type}value={value}></input><br></br>
-      <button>submit</button><br></br><br></br>
-      <label for={name}>name:</label>
-      <input type={type} value={value} id={id}></input>
-      </form>
-            </div>
-            )
+// }
+// const obj2={
+//     head1:"this is an image",
+//     src:"https://th.bing.com/th?id=OIP.87rC-vQdkf1I5qv74_2LjwHaHp&w=246&h=253&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+//     alt:"hello",
+//     head2:"this is a list",
+//     list1:"javascript",
+//     list2:"react",
+//     type:"text",
+//      value: "hello",
+//      name:"name",
+//      id:"name"
+// }
+// const{head1,src,alt,head2,list1,list2,type,value,name,id}=obj2
+// return(
+//             <div>
+//                  <h1>{obj.heading1}</h1>
+//             <tr>
+//                 <th>{obj.tableheads[0]}</th> 
+//                 <th>{obj.tableheads[1]}</th>
+//                 <th>{obj.tableheads[2]}</th>
+//             </tr>
+//             <tr>
+//                 <td>{obj.tabledata[0]}</td>
+//                 <td>{obj.tabledata[1]}</td>
+//                 <td>{obj.tabledata[2]}</td>
+//             </tr>
+//             <tr>
+//                 <td>{obj.tabledata[3]}</td>
+//                 <td>{obj.tabledata[4]}</td>
+//                 <td>{obj.tabledata[5]}</td>
+//             </tr>
+//             <h1>{head1}</h1> 
+//          <img
+//         src={src}
+//         alt={alt}
+//         />
+//         <h1>{head2}</h1>
+//         <ul>
+//         <li>{list1}</li>
+//         <li>{list2}</li>
+//         </ul>
+//         <h1> this  is a form</h1>
+//         <form>
+//        <input type= {type}value={value}></input><br></br>
+//       <button>submit</button><br></br><br></br>
+//       <label for={name}>name:</label>
+//       <input type={type} value={value} id={id}></input>
+//       </form>
+//             </div>
+//             )
+// }
+// export default App;
+//task 9/1/2024
+import Buttoncomponent1 from "./classbutton/buttonsubscribe";
+function App(){
+    return(
+    <Buttoncomponent1/>
+    )
 }
 export default App;
 
