@@ -1,10 +1,12 @@
 function Apicall(){
     const fetchData=()=>{
         try{
-        fetch("https://fakestoreapi.com/products")
+            a=10;
+        fetch("https://fakestoreapi.com/productss")
     .then(response=>(response.json()))
     .then(response=>console.log(response))
     .catch((err)=>console.log("error"))
+           console.log(b);
         }
         catch(err){
             console.log(err);

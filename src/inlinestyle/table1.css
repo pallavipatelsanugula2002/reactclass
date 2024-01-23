@@ -1,0 +1,8 @@
+.one{
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.two{
+    background-color: aqua;
+    text-align: center;
+}

@@ -168,12 +168,34 @@
 // }
 // export default App;
 //task on 10/1/2024
-import Apicall from "./exceptionhandling/api.js";
-function App(){
-        return(
-       <Apicall/>
-        )
-    }
-    export default App;
+// import Apicall from "./exceptionhandling/api.js";
+// function App(){
+//         return(
+//        <Apicall/>
+//         )
+//     }
+//     export default App;
+//task on 11/1/2024
+
+import InlineStyle from "./inlinestyle/inline";
+import Tablecomponent2 from "./inlinestyle/tableexternal";
+import Formcomponent2 from "./inlinestyle/formsexternal";
+import Lists2 from "./inlinestyle/listsexternal";
+
+function App() {
+    return (
+        <>
+        <InlineStyle />
+        <Tablecomponent2/>
+        <Formcomponent2/>
+        <Lists2/>
+        </>
+
+    );
+}
+
+export default App;
+
+
 
 
