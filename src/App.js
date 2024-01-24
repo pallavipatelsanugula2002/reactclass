@@ -177,24 +177,53 @@
 //     export default App;
 //task on 11/1/2024
 
-import InlineStyle from "./inlinestyle/inline";
-import Tablecomponent2 from "./inlinestyle/tableexternal";
-import Formcomponent2 from "./inlinestyle/formsexternal";
-import Lists2 from "./inlinestyle/listsexternal";
+// import InlineStyle from "./inlinestyle/inline";
+// import Tablecomponent2 from "./inlinestyle/tableexternal";
+// import Formcomponent2 from "./inlinestyle/formsexternal";
+// import Lists2 from "./inlinestyle/listsexternal";
 
-function App() {
-    return (
-        <>
-        <InlineStyle />
-        <Tablecomponent2/>
-        <Formcomponent2/>
-        <Lists2/>
-        </>
 
-    );
-}
+// function App() {
+//     return (
+//         <>
+//         <InlineStyle />
+//         <Tablecomponent2/>
+//         <Formcomponent2/>
+//         <Lists2/>
+//         </>
+
+//     );
+// }
+
+// export default App;
+//task on 12/11/2024
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import Bootcomponent from "./bootstrap/bootstrap1";
+// import comp from './bootstrap/tablecompboot';
+// function App(){
+//     return(<>
+//     {/* <Bootcomponent/> */}
+//     <comp/>
+//     </>)
+// }
+// export default App;
+// App.js (or your main application file)
+
+import React from 'react';
+import Parent from './bootstrap/parent';
+import Parent1 from './bootstrap/tableparent';
+const App = () => {
+  return (
+    <div>
+      <h1>Main App</h1>
+      <Parent />
+      <Parent1></Parent1>
+    </div>
+  );
+};
 
 export default App;
+
 
 
 
