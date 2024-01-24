@@ -210,20 +210,28 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // App.js (or your main application file)
 
 import React from 'react';
-import Parent from './bootstrap/parent';
-import Parent1 from './bootstrap/tableparent';
-const App = () => {
-  return (
-    <div>
-      <h1>Main App</h1>
-      <Parent />
-      <Parent1></Parent1>
-    </div>
-  );
-};
+import Mounting from './lifecycle/componentdid';
+// import Parent from './bootstrap/parent';
+// import Parent1 from './bootstrap/tableparent';
+// const App = () => {
+//   return (
+//     <div>
+//       <h1>Main App</h1>
+//       <Parent />
+//       <Parent1></Parent1>
+//     </div>
+//   );
+// };
 
+// export default App;
+//task on 19/1/24
+
+function App(){
+  return(
+    <Mounting/>
+  )
+}
 export default App;
-
 
 
 
