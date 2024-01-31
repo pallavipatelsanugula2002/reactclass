@@ -224,10 +224,10 @@ import Formval from './practice/formspractice';
 import Controlled from './practice/controlled';
 import ParentComponent from './props/parent';
 import Mounting from './lifecycle/componentdid';
-// import Updatemount from './lifecycle/update/update';
-// import UseStatemethod from './hooks/hooks';
-// import DynamicList from './hooks/files';
-// import NewList from './hooks/listsfiles';
+import Updatemount from './lifecycle/update/update';
+import UseStatemethod from './hooks/hooks';
+import DynamicList from './hooks/files';
+import NewList from './hooks/listsfiles';
 // import Login from './hooks/formuncontrol';
 // import Classbase from './practice/classbase1';
 // import Fetchdata from './practice/classbase1';
@@ -250,10 +250,11 @@ function App(){
   return(
     <>
     <Mounting/>
+    <UseStatemethod/>
+    <DynamicList/>
+    <NewList/>
     {/* // <Updatemount favcolor="red"/>
-    // <UseStatemethod/>
-    // <DynamicList/>
-    // <NewList/>
+   
     // <Login/>
     // <Classbase/>
     // <Fetchdata/> */}
