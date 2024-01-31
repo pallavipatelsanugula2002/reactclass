@@ -228,7 +228,7 @@ import Updatemount from './lifecycle/update/update';
 import UseStatemethod from './hooks/hooks';
 import DynamicList from './hooks/files';
 import NewList from './hooks/listsfiles';
-// import Login from './hooks/formuncontrol';
+import Login from './hooks/formuncontrol';
 // import Classbase from './practice/classbase1';
 // import Fetchdata from './practice/classbase1';
 // import Parent from './bootstrap/parent';
@@ -249,13 +249,15 @@ import NewList from './hooks/listsfiles';
 function App(){
   return(
     <>
-    <Mounting/>
+    <Login/>
+    {/* <Mounting/>
     <UseStatemethod/>
     <DynamicList/>
-    <NewList/>
+    <NewList/> */}
+
     {/* // <Updatemount favcolor="red"/>
    
-    // <Login/>
+    // 
     // <Classbase/>
     // <Fetchdata/> */}
     
