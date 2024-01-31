@@ -223,7 +223,7 @@ import UncontrolledForm from './practice/formspractice';
 import Formval from './practice/formspractice';
 import Controlled from './practice/controlled';
 import ParentComponent from './props/parent';
-// import Mounting from './lifecycle/componentdid';
+import Mounting from './lifecycle/componentdid';
 // import Updatemount from './lifecycle/update/update';
 // import UseStatemethod from './hooks/hooks';
 // import DynamicList from './hooks/files';
@@ -248,15 +248,16 @@ import ParentComponent from './props/parent';
 
 function App(){
   return(
-    // <Mounting/>
-    // <Updatemount favcolor="red"/>
+    <>
+    <Mounting/>
+    {/* // <Updatemount favcolor="red"/>
     // <UseStatemethod/>
     // <DynamicList/>
     // <NewList/>
     // <Login/>
     // <Classbase/>
-    // <Fetchdata/>
-    <>
+    // <Fetchdata/> */}
+    
     {/* <Inline/>
     <Externalpra/>
     <Externalmod/> */}
@@ -269,7 +270,7 @@ function App(){
     {/* <UncontrolledForm/> */}
     {/* <Formval/> */}
     {/* <Controlled/> */}
-    <ParentComponent/>
+    {/* <ParentComponent/> */}
     </>
   )
 }
