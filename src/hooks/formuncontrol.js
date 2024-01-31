@@ -6,12 +6,12 @@ const passref=useRef();
 
 const handle=((event)=>{
     event.preventeventdefault();
-if(gjk){
-//validations-trim
-}
-else{
-    //create an obj with getted values and pass it to newly fetched api function
-}
+// if(gjk){
+// //validations-trim
+// }
+// else{
+//     //create an obj with getted values and pass it to newly fetched api function
+// }
 
 })
 // const formuse=((data
