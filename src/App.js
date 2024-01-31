@@ -250,6 +250,7 @@ function App(){
   return(
     <>
     <Login/>
+    <Controlled/>
     {/* <Mounting/>
     <UseStatemethod/>
     <DynamicList/>
