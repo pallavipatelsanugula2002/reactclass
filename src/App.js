@@ -210,7 +210,27 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // App.js (or your main application file)
 
 import React from 'react';
-import Mounting from './lifecycle/componentdid';
+import Inline from './practice/classbase1';
+import Externalpra from './practice/externalpractice';
+import Externalmod from './practice/externalmod';
+import Apps from './practice/classbase1';
+import Propsclass from './practice/classbase1';
+import Propsparent from './practice/classbase1';
+import Counter from './practice/childtoparent';
+import Parentlife from './practice/lifecycleparent';
+import InputForm from './practice/hooks';
+import UncontrolledForm from './practice/formspractice';
+import Formval from './practice/formspractice';
+import Controlled from './practice/controlled';
+import ParentComponent from './props/parent';
+// import Mounting from './lifecycle/componentdid';
+// import Updatemount from './lifecycle/update/update';
+// import UseStatemethod from './hooks/hooks';
+// import DynamicList from './hooks/files';
+// import NewList from './hooks/listsfiles';
+// import Login from './hooks/formuncontrol';
+// import Classbase from './practice/classbase1';
+// import Fetchdata from './practice/classbase1';
 // import Parent from './bootstrap/parent';
 // import Parent1 from './bootstrap/tableparent';
 // const App = () => {
@@ -228,7 +248,29 @@ import Mounting from './lifecycle/componentdid';
 
 function App(){
   return(
-    <Mounting/>
+    // <Mounting/>
+    // <Updatemount favcolor="red"/>
+    // <UseStatemethod/>
+    // <DynamicList/>
+    // <NewList/>
+    // <Login/>
+    // <Classbase/>
+    // <Fetchdata/>
+    <>
+    {/* <Inline/>
+    <Externalpra/>
+    <Externalmod/> */}
+    {/* <Apps/> */}
+    {/* <Propsclass/> */}
+    {/* <Propsparent/> */}
+    {/* <Counter/> */}
+    {/* <Parentlife/> */}
+    {/* <InputForm/> */}
+    {/* <UncontrolledForm/> */}
+    {/* <Formval/> */}
+    {/* <Controlled/> */}
+    <ParentComponent/>
+    </>
   )
 }
 export default App;
